@@ -1,0 +1,222 @@
+
+
+/* ==== BROWSER RESETS  ==== */
+* { box-sizing: border-box; padding: 0; margin: 0 }
+body, html { height: 100% }
+body { max-width: 1600px }
+
+
+/* ==== UTILITY CLASS  ==== */
+.img-fluid { width: 100%; height: auto }
+
+/* ==== PAGE WIDTH  ==== */
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    body {
+       padding-left: 5%;
+       padding-right: 5%
+    }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    body {
+       padding-left: 20%;
+       padding-right: 20%
+    }
+}
+
+
+/* ==== BODY ==== */
+body { background-color: #765360 }
+
+
+/* ==== MAIN HEADING  ==== */
+h1 {
+    font-family: serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: calc(36px + (54 - 36) * ((100vw - 320px)/(1600 - 320)));
+    letter-spacing: -1px;
+
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    h1 { 
+        line-height: 1.1;
+        width: 90%;
+        margin: 10% 5%;
+    
+}
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    h1 { 
+        line-height: 1.2;
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+
+
+
+
+
+ /* ==== SUB HEADINGS ==== */
+ h2, 
+ h3, 
+ h4 { font-family: sans-serif; font-weight: bold; line-height: 1.2 
+}
+ 
+ h2 { letter-spacing: 1px; text-transform: uppercase }
+
+ h2 {
+   font-size: calc(20px + (22 - 20) * ((100vw - 320px)/(1600 - 320)));
+}
+
+ h3 {
+   font-size: calc(16px + (18 - 16) * ((100vw - 320px)/(1600 - 320)));
+}
+
+ h4 {
+   font-size: calc(14px + (16 - 14) * ((100vw - 320px)/(1600 - 320)));
+}
+
+
+
+/* Desktop */
+@media all and (min-width:768px) {
+    h2 { margin-top: 5% }
+    h3 { margin-top: 3% }
+    h4 { margin-top: 1.5% }
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    h2 { margin-top: 10% }
+    h3 { margin-top: 1% }
+    h4 { margin-top: 1% }
+}
+
+ /* ==== PARAGRAPH TEXT ==== */
+
+ p { 
+    font-family: sans-serif;
+    font-size: calc(18px + (15 - 18) * ((100vw - 320px)/(1600 - 320)));	
+ }
+ 
+ /* Mobiles */
+ @media all and (max-width:767px) {
+      p  { line-height: 1.4; margin-bottom: 5% }
+  }
+ 
+ /* Desktop */
+ @media all and (min-width:768px) {
+      p { line-height: 1.6; margin-bottom: 3% }
+  }
+ 
+
+  /* ==== BULLETS ==== */
+
+ul li, ol li {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+}
+
+/* Mobiles */
+@media all and (max-width:767px) {
+    ul, ol { margin-left: 5% }
+    ul li, ol li {
+       line-height: 1.4;
+       margin-bottom: 5%;
+    }
+}
+ 
+/* Desktop */
+@media all and (min-width:768px) {
+    ul, ol { margin-left: 2% }
+    ul li, ol li {
+       line-height: 1.6;
+       margin-bottom: 3%;
+    }
+}
+
+
+ /* ==== IMAGES ==== */
+ /* Mobiles */
+ @media all and (max-width:767px) {
+    img { margin-bottom: 4% }
+}
+
+/* Desktop */
+@media all and (min-width:768px) {
+    img { margin-bottom: 1% }
+}
+
+
+ /* ==== DIV - INTRODUCTION ==== */
+ .box-introduction { 
+    width: 90%;
+    border-bottom-style: solid; 
+    border-bottom-color: #dcd8cf;
+}
+
+.box-introduction p { font-family: serif; font-style: italic; text-align: center }
+
+
+ /* Desktop */
+ @media all and (min-width:768px) { 
+    .box-introduction { 
+        margin: 2% auto 6% auto;
+        padding-bottom: 20px;
+        border-bottom-width: 12px
+    }
+
+    .box-introduction p { 
+        line-height: 1.4; 
+        font-size: 28px 
+    }
+ }
+
+ /* Mobiles */
+ @media all and (max-width:767px) { 
+     .box-introduction { 
+         margin: 2% auto 10% auto;
+         padding-bottom: 10px;
+         border-bottom-width: 6px
+    }
+
+    .box-introduction p { 
+         line-height: 1.3; 
+         font-size: 20px 
+    }
+}
+
+
+ /* ==== DIV - HIGHLIGHTED BLOCK ==== */
+ .box-highlight { background-color: #d4c6e6  }
+
+ /* Desktop */
+ @media all and (min-width:768px) { 
+     .box-highlight { margin-top: 4%; margin-bottom: 6% }
+     .box-highlight { padding: 12px 20px }
+ }
+
+ /* Mobiles */
+ @media all and (max-width:767px) { 
+     .box-highlight { margin-top: 2%; margin-bottom: 10% }
+     .box-highlight { padding: 12px 14px }
+ }
+
+ 
+ /* ==== DIV - HIGHLIGHTED BLOCK ==== */
+ .box-highlight { background-color: #d4c6e6  }
+ .box-highlight h4 { margin-top: 0 }
+ .box-highlight p:last-child { margin-bottom: 0 }
+ .box-highlight ul { margin-bottom: 0 }
+ .box-highlight ul li:last-child { margin-bottom: 0 }
