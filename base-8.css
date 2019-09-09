@@ -49,7 +49,6 @@ a.fancy-link:link, a.fancy-link:hover { color: red}
 
 /* ==== buttons ==== */
 
-
 a.btn:link, .btn:visited, a.btn:hover, a.btn:active { 
    text-decoration: none;
    color: inherit;
