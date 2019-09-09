@@ -1,13 +1,9 @@
 /* ==== BROWSER RESETS  ==== */
-* { box-sizing: border-box; padding: 0; margin: 0 }
-body, html { height: 100% }
-body { max-width: 1600px; margin: 0 auto}
-
-
-/* ==== UTILITY CLASS  ==== */
-.img-fluid { width: 100%; height: auto }
-
-
+* { padding: 0; margin: 0; border: 0; box-sizing: border-box; font-weight: normal; font-size: 16px }
+body, html { height: 100% }	
+html { scroll-behavior: smooth }
+body { max-width: 1600px; margin: 0 auto }
+img { display: block; width: 100%; height: auto }
 
 /* ==== FONT  ==== */
 body { font-family: sans-serif }
@@ -409,7 +405,6 @@ body { font-family: sans-serif }
 
 	.flex-grid-footer h4 { margin-bottom: 2px }
 }
-
 
 
 
