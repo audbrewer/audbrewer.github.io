@@ -32,7 +32,7 @@
 </head>
 
 <body>
-
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 <body>
@@ -229,38 +229,28 @@
 </script>
 <!-- End JavaScript code showing/hiding slide-out menu -->
 
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
-	window.cookieconsent.initialise({
-	  "palette": {
-		"popup": {
-		  "background": "#000"
-		},
-		"button": {
-		  "background": "#f1d600"
-		}
-	  },
-	  "content": {
-		"href": "https://www.munnelly.com/legal/"
-	  }
-	});
-	</script>
-
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
 window.cookieconsent.initialise({
   "palette": {
     "popup": {
-      "background": "#000"
+      "background": "#efefef",
+      "text": "#404040"
     },
     "button": {
-      "background": "#f1d600"
+      "background": "#8ec760",
+      "text": "#ffffff"
     }
   },
+  "theme": "classic",
+  "position": "bottom-right",
   "content": {
-    "href": "https://audbrewer.github.io/privacy.html"
+    "message": "I'm just making sure you are okay with using cookies, to get the best experience on my site.",
+    "dismiss": "Okie dokie!",
+    "link": "What's this?"
   }
 });
 </script>
-</body>
+	
+	</body>
+	
 </html>
