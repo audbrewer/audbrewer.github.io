@@ -290,7 +290,7 @@ body { font-family: sans-serif }
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-image: url('../img/background-design-marble.jpg');
+	background-image: url('../img/background-design-paper.png');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
