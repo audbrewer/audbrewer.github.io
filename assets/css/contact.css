@@ -121,7 +121,7 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: blue; box-shadow: 0px 1px 10px #888 }
+	.menu-mobile-dark { background-color: #e68e8e; box-shadow: 0px 1px 10px #888 }
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
@@ -132,12 +132,12 @@ body { font-family: sans-serif }
 	.menu-mobile-dark li a { color: #fff }
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:blue;
+		background-color: #fff; border-color: #fff; color:#e68e8e;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: blue; color:#fff;
+		background-color: #e68e8e; color:#fff;
 	}
 
 	/*== Light mobile menu == */
@@ -146,18 +146,18 @@ body { font-family: sans-serif }
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
 	.menu-mobile-light .item-icon .bar3 {
-		background-color: blue;
+		background-color: #e68e8e;
 	}
 
-	.menu-mobile-light li a { color: blue }
+	.menu-mobile-light li a { color: #e68e8e }
 
 	.menu-mobile-light li a.btn-solid { 
-		background-color: blue; border-color: #fff; color:#fff;
+		background-color: #e68e8e; border-color: #fff; color:#fff;
 	}
 
 	.menu-mobile-light li a.btn-solid:hover, 
 	.menu-mobile-light li a.btn-solid:active { 
-		background-color: #fff; color:blue; border-color: blue
+		background-color: #fff; color:#e68e8e; border-color: #e68e8e
 	}
 
 	/*== Sticky mobile menu == */
@@ -222,7 +222,7 @@ body { font-family: sans-serif }
 	.container-menu-desktop .item-menu ul li a.btn-solid:hover, 
 	.container-menu-desktop .item-menu ul li a.btn-solid:active { 
 		text-decoration: none;
-		background-color: blue;
+		background-color: #e68e8e;
 		color:#fff;
 	}
 
@@ -256,29 +256,29 @@ body { font-family: sans-serif }
 @media all and (min-width:768px) { 
 
 	/*== Dark desktop menu == */
-	.menu-desktop-dark { background-color: blue; box-shadow: 0px 1px 10px #888; }
+	.menu-desktop-dark { background-color: #e68e8e; box-shadow: 0px 1px 10px #888; }
 	.menu-desktop-dark .item-menu ul li a { color: #fff }
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid { 
-		background-color: #fff; border-color: #fff; color:blue;
+		background-color: #fff; border-color: #fff; color:#e68e8e;
 	}
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:active { 
-		background-color: blue; color:#fff;
+		background-color: #e68e8e; color:#fff;
 	}
 
 	/*== Light desktop menu == */
 	.menu-desktop-light { background-color: #fff; box-shadow: 0px 1px 10px #888; }
-	.menu-desktop-light .item-menu ul li a { color: blue }
+	.menu-desktop-light .item-menu ul li a { color: #e68e8e }
 
 	.menu-desktop-light .item-menu ul li a.btn-solid { 
-		background-color: blue; border-color: blue; color: #fff;
+		background-color: #e68e8e; border-color: #e68e8e; color: #fff;
 	}
 
 	.menu-desktop-light .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-light .item-menu ul li a.btn-solid:active { 
-		background-color: #fff; color: blue;
+		background-color: #fff; color: #e68e8e;
 	}
 
 	/*== Sticky desktop menu == */
@@ -290,7 +290,7 @@ body { font-family: sans-serif }
 
 /* ========================== FORM WRAPPER  ============================== */
 
-body { background-color: lightgray }
+body { background-color: #dfdfdf }
 
 .container-form {
 	margin-left: auto; 
@@ -339,7 +339,7 @@ body { background-color: lightgray }
 
 	.flex-row div:first-child {
 		width: 48px;
-		background: blue;
+		background: #e68e8e;
 		z-index: 9
 	}
 
@@ -364,7 +364,7 @@ body { background-color: lightgray }
 		outline: none;
 		border-top: solid 2px #fff;
 		border-right: solid 2px #fff;
-		border-bottom: solid 2px gray;
+		border-bottom: solid 2px #f7eded;
 		border-left: solid 2px #fff;
 		border-radius: 0;
 		-webkit-appearance: none;
@@ -382,17 +382,17 @@ body { background-color: lightgray }
 	@media all and (max-width:767px) { .contact-form input.form-field { width: 98% } }
 
 	.contact-form input.form-field:focus {
-		border-top: solid 2px #ECECFF;
-		border-right: solid 2px #ECECFF;
-		border-bottom: solid 2px blue;
-		border-left: solid 2px #ECECFF;
-		background-color: #ECECFF
+		border-top: solid 2px #ffecf0;
+		border-right: solid 2px #ffecf0;
+		border-bottom: solid 2px #e68e8e;
+		border-left: solid 2px #ffecf0;
+		background-color: #ffecf0;
 	}
 
 	#contact-form .validate {
 		border-top: solid 2px #fff;
 		border-right: solid 2px #fff;
-		border-bottom: solid 2px red;
+		border-bottom: solid 2px #a64848;
 		border-left: solid 2px #fff;
 	}
 
@@ -403,21 +403,21 @@ body { background-color: lightgray }
 		outline: none;
 		border-top: solid 2px #fff;
 		border-right: solid 2px #fff;
-		border-bottom: solid 2px gray;
+		border-bottom: solid 2px #ffecf0;
 		border-left: solid 2px #fff;
 		font-family: sans-serif;
 	}
 
 	.contact-form textarea.form-field:focus {
-		background-color: #ECECFF;
-		border-top: solid 2px #ECECFF;
-		border-right: solid 2px #ECECFF;
-		border-bottom: solid 2px blue;
-		border-left: solid 2px #ECECFF;
+		background-color: #ffecf0;
+		border-top: solid 2px #ffecf0;
+		border-right: solid 2px #ffecf0;
+		border-bottom: solid 2px #e68e8e;
+		border-left: solid 2px #ffecf0;
 	}
 
 	.contact-form span.field-icon {
-		background: blue;
+		background: #e68e8e;
 		color:#fff;
 	}
 
@@ -431,7 +431,7 @@ body { background-color: lightgray }
 
 	.contact-form .btn-submit {
 		padding: 14px 26px;
-		background-color: blue;
+		background-color: #e68e8e;
 		cursor: pointer;
 		text-align:right;
 		border-radius: 0;
@@ -468,15 +468,15 @@ body { background-color: lightgray }
 	#contact-form .btn-submit:active,
 	#contact-form .btn-submit:hover {
 		color: #fff;
-		background: #27ae60;
-		border-color: #27ae60
+		background: #e5a532;
+		border-color: #e5a532
 	}
 
 	.contact-form .btn-submit i { margin-left: 6px}
 
 	.contact-form p.form-msg {
 		display: none;
-		color:red;
+		color:#a64848;
 		font-size: calc(13px + (14 - 13) * ((100vw - 320px)/(1600 - 320))); line-height: 1;
 	}
 
@@ -499,7 +499,7 @@ body { background-color: lightgray }
 
 /*======================= FOOTER =====================*/
 
-.container-footer { background-color: #2c3e50; margin-top: 5% }
+.container-footer { background-color: #e5a532; margin-top: 5% }
 
 .flex-grid-footer { display: flex }
 
@@ -518,8 +518,8 @@ body { background-color: lightgray }
 .flex-grid-footer p a:active {
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: solid 1px lightblue;
-	color: lightblue;
+	border-bottom: solid 1px #fabdbd;
+	color: #fabdbd;
 }
 
 
